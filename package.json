@@ -4,7 +4,7 @@
   "description": "none",
   "main": "index.js",
   "scripts": {
-    "testSmoke": "npx playwright test --grep @nesmoke --headed"
+    "test": "npx playwright test TestCase.spec.ts"
   },
   "author": "",
   "license": "ISC",
